@@ -151,6 +151,11 @@
       background-color: var(--blue-text);
   }
 
+  .button-primary.current {
+    color: var(--white-text);
+    background-color: var(--blue-text);
+  }
+
   .portfolio-title {
       color: var(--black-text);
       font-weight: 700;
