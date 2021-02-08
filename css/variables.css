@@ -1,11 +1,11 @@
 :root {
---black-text: #212121;
---blue-text: #2196F3;
---black-logo: #000000;
---white-text: #FFFFFF;
---grey-text: #757575;
---white-text-op60: rgba(255, 255, 255, 0.6);
---back-grey: #2F303A;
---back-light-grey: #F5F4FA;
+--dark-text: #212121;
+--colorful-text: #2196F3;
+--dark-logo: #000000;
+--light-text: #FFFFFF;
+--main-text: #757575;
+--light-text-op60: rgba(255, 255, 255, 0.6);
+--back-dark: #2F303A;
+--back-light: #F5F4FA;
 --back-white: #FFFFFF;
 }

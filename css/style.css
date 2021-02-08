@@ -14,9 +14,11 @@
 
   body {
       background-color: var(--back-white);
-      color: var(--grey-text);
+      color: var(--main-text);
       font-family: "Roboto", sans-serif;
       letter-spacing: 0.03em;
+      font-weight: 400;
+      font-size: 14px;
   }
  
 /* Лого */
@@ -26,20 +28,17 @@
       font-weight: 700;
       font-size: 26px;
       line-height: 1.2;
-  }
-
-  .web-logo {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
 
   .studio-logo {
-      color: var(--black-logo)
+      color: var(--dark-logo);
   }
 
   /* Навигация */
 
   .site-nav .link {
-      color: var(--black-text);
+      color: var(--dark-text);
       font-weight: 500;
       font-size: 14px;
       line-height: 1.1;
@@ -48,15 +47,15 @@
 
   .site-nav .link:hover,
   .site-nav .link:focus {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
 
   .site-nav .link.current {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
 
   .contact-link {
-      color: var(--grey-text);
+      color: var(--main-text);
       font-weight: 500;
       font-size: 14px;
       line-height: 1.1;
@@ -65,24 +64,26 @@
 
   .contact-nav .contact-link:hover,
   .contact-nav .contact-link:focus {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
 
   /* Герой */
 
   .button {
-      color: var(--white-text);
-      background-color: var(--blue-text);
+      color: var(--light-text);
+      background-color: var(--colorful-text);
       font-family: inherit;
       font-weight: 700;
       font-size: 16px;
       line-height: 1.9;
       letter-spacing: 0.06em;
+
+      cursor: pointer;
   }
 
   .hero {
-      background-color: var(--back-grey);
-      color: var(--white-text);
+      background-color: var(--back-dark);
+      color: var(--light-text);
       text-align: center;
   }
 
@@ -97,7 +98,7 @@
   /* Особенности */
 
   .features-title {
-      color: var(--black-text);
+      color: var(--dark-text);
       font-weight: 700;
       font-size: 14px;
       line-height: 1.1;
@@ -112,7 +113,7 @@
   /* Секции */
 
   .section-title {
-      color: var(--black-text);
+      color: var(--dark-text);
       font-weight: 700;
       font-size: 36px;
       line-height: 1.2;
@@ -120,11 +121,11 @@
   }
 
   .section-team {
-      background-color: var(--back-light-grey);
+      background-color: var(--back-light);
   }
 
   .team-member {
-      color: var(--black-text);
+      color: var(--dark-text);
       font-weight: 500;
       font-size: 16px;
       line-height: 1.2;
@@ -138,26 +139,28 @@
   /* Портфолио */
 
   .button-primary {
-      color: var(--black-text);
-      background-color: var(--back-light-grey);
+      color: var(--dark-text);
+      background-color: var(--back-light);
       font-family: inherit;
       font-size: 16px;
       line-height: 1.6;
+
+      cursor: pointer;
   }
 
   .button-primary:hover,
   .button-primary:focus {
-      color: var(--white-text);
-      background-color: var(--blue-text);
+      color: var(--light-text);
+      background-color: var(--colorful-text);
   }
 
   .button-primary.current {
-    color: var(--white-text);
-    background-color: var(--blue-text);
+    color: var(--light-text);
+    background-color: var(--colorful-text);
   }
 
   .portfolio-title {
-      color: var(--black-text);
+      color: var(--dark-text);
       font-weight: 700;
       font-size: 18px;
       line-height: 2;
@@ -172,29 +175,29 @@
   /* Футер */
 
   footer {
-      background-color: var(--back-grey);
+      background-color: var(--back-dark);
       font-size: 14px;
       line-height: 1.7;
   }
 
   .white-logo {
-    color: var(--white-text);
+    color: var(--light-text);
   }
 
   .address {
-      color: var(--white-text);
+      color: var(--light-text);
   }
 
   .contact-address {
-      color: var(--white-text-op60);
+      color: var(--light-text-op60);
   }
 
   .address:hover,
   .address:focus {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
 
   .contact-address:hover,
   .contact-address:focus {
-      color: var(--blue-text);
+      color: var(--colorful-text);
   }
