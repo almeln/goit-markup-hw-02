@@ -46,10 +46,7 @@
   }
 
   .site-nav .link:hover,
-  .site-nav .link:focus {
-      color: var(--colorful-text);
-  }
-
+  .site-nav .link:focus,
   .site-nav .link.current {
       color: var(--colorful-text);
   }
@@ -193,10 +190,7 @@
   }
 
   .address:hover,
-  .address:focus {
-      color: var(--colorful-text);
-  }
-
+  .address:focus,
   .contact-address:hover,
   .contact-address:focus {
       color: var(--colorful-text);
